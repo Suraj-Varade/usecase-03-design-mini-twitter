@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usecase-03-design-mini-twitter", "usecase-03-design-mini-twitter\usecase-03-design-mini-twitter.csproj", "{B65E344D-E1AD-470A-BAFC-9CBB2E7021A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini-twitter.Tests", "mini-twitter.Tests\mini-twitter.Tests.csproj", "{481704AC-9E76-47C6-908B-E175CC4CE96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B65E344D-E1AD-470A-BAFC-9CBB2E7021A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65E344D-E1AD-470A-BAFC-9CBB2E7021A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65E344D-E1AD-470A-BAFC-9CBB2E7021A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65E344D-E1AD-470A-BAFC-9CBB2E7021A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481704AC-9E76-47C6-908B-E175CC4CE96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481704AC-9E76-47C6-908B-E175CC4CE96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481704AC-9E76-47C6-908B-E175CC4CE96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481704AC-9E76-47C6-908B-E175CC4CE96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

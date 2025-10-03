@@ -1,0 +1,217 @@
+@usecase_03_design_mini_twitter_HostAddress = http://localhost:5244
+
+### Twitter.http - sample requests for minimal API
+
+# -------------------- Post Tweets --------------------
+
+### Post Tweet 1
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "tweetId": 101
+}
+
+### Post Tweet 2
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "tweetId": 102
+}
+
+### Post Tweet 3
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 3,
+  "tweetId": 103
+}
+
+### Post Tweet 4
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 4,
+  "tweetId": 104
+}
+
+### Post Tweet 5
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 5,
+  "tweetId": 105
+}
+
+### Post Tweet 6
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 6,
+  "tweetId": 106
+}
+
+### Post Tweet 7
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 7,
+  "tweetId": 107
+}
+
+### Post Tweet 8
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 8,
+  "tweetId": 108
+}
+
+### Post Tweet 9
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 9,
+  "tweetId": 109
+}
+
+### Post Tweet 10
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/tweet
+Content-Type: application/json
+
+{
+  "userId": 10,
+  "tweetId": 110
+}
+
+##### -------------------- Follow --------------------
+
+### Follow 1
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 1,
+  "followeeId": 2
+}
+
+### Follow 2
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 1,
+  "followeeId": 3
+}
+
+### Follow 3
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 2,
+  "followeeId": 3
+}
+
+### Follow 4
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 2,
+  "followeeId": 4
+}
+
+### Follow 5
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 3,
+  "followeeId": 4
+}
+
+### Follow 6
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 3,
+  "followeeId": 5
+}
+
+### Follow 7
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 4,
+  "followeeId": 5
+}
+
+### Follow 8
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 4,
+  "followeeId": 6
+}
+
+### Follow 9
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 5,
+  "followeeId": 6
+}
+
+### Follow 10
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/follow
+Content-Type: application/json
+
+{
+  "followerId": 5,
+  "followeeId": 7
+}
+
+#####  -------------------- Unfollow --------------------
+
+### Unfollow 1
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/unfollow
+Content-Type: application/json
+
+{
+  "followerId": 1,
+  "followeeId": 3
+}
+
+### Unfollow 2
+POST {{usecase_03_design_mini_twitter_HostAddress}}/api/unfollow
+Content-Type: application/json
+
+{
+  "followerId": 2,
+  "followeeId": 4
+}
+
+##### -------------------- Get Feed --------------------
+
+### Get Feed 1
+GET {{usecase_03_design_mini_twitter_HostAddress}}/api/feed/1
+
+### Get Feed 2
+GET {{usecase_03_design_mini_twitter_HostAddress}}/api/feed/2
+
+###
