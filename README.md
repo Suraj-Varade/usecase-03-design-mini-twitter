@@ -16,7 +16,7 @@ The implementation is based on a common **system design/LeetCode-style interview
 - **Framework:** .NET 8 (Minimal API), XUnit (Test)
 - **Architecture:** Interface-driven design, dependency injection, in-memory store  
 
-## Project Structure
+## 📂 Project Structure
 ```text
 usecase-03-design-mini-twitter/
 │
